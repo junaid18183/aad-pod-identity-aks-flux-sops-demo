@@ -1,0 +1,4 @@
+---
+creation_rules:
+  - azure_keyvault: 'https://bigbang-demo-enbuild.vault.azure.net/keys/sops-key/3e7781ddc080466d960d16aa8b520836'
+    encrypted_regex: "^(data|stringData)$"
